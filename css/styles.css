@@ -14,19 +14,66 @@ body{
     position: fixed;
     z-index: 1;
     width: 10%;
-    top: 50%;
-    left: 45%
+    animation: mnave 5s infinite;
 }
-.ctexto1 {
+.ctexto {
     position: fixed;
     z-index: 2;
-    top: 0%;
-    
-    color: aliceblue;
     font-family: nova;
+    animation: mymove 5s infinite;
+    
+}
+.ccopy {
+    position: fixed;
+    z-index: 3;
+    top: 0%;
+    left: 0%;
+    font-family: nova;
+    color: aliceblue;
+    animation:  5s infinite;
 }
 
 @font-face {
     font-family: nova;
     src: url(/fonts/AppleII.ttf);
+}
+@media screen and (min-width: 200px) {
+    .ctexto {
+      font-size: 15px;
+    }
+    .ccopy {
+        font-size: 8px;
+    }
+}
+@media screen and (min-width: 400px) {
+    .ctexto {
+      font-size: 40px;
+    }
+}
+@media screen and (min-width: 600px) {
+    .ctexto {
+      font-size: 50px;
+    }
+}
+@media screen and (min-width: 700px) {
+    .ctexto {
+      font-size: 60px;
+    }
+}
+@media screen and (min-width: 800px) {
+    .ctexto {
+      font-size: 70px;
+    }
+}
+@keyframes mymove {
+    0%   {top: 10%; left: 30%; color: red;}
+    25%  {top: 20%; left: 40%; color: blue;}
+    50%  {top: 30%; left: 30%; color: yellow;}
+    75%  {top: 20%; left: 20%; color: green;}
+    100% {top: 10%; left: 30%; color: red;}
+}
+@keyframes mnave {
+    0%   {top: 50%; left: 45%; }
+    50%  {top: 70%; left: 45%; }
+    100% {top: 50%; left: 45%; }
 }
