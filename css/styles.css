@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box; 
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(2,0,36);  
+}
+.fondo {
+    position: absolute;
+    z-index: 0;
+}
+.cnave {
+    position: fixed;
+    z-index: 1;
+    width: 10%;
+    top: 50%;
+    left: 45%
+}
+.ctexto1 {
+    position: fixed;
+    z-index: 2;
+    top: 0%;
+    
+    color: aliceblue;
+    font-family: nova;
+}
+
+@font-face {
+    font-family: nova;
+    src: url(/fonts/AppleII.ttf);
+}
