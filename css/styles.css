@@ -31,7 +31,7 @@ body{
 }
 
 @font-face {
-    font-family: nova;
+    font-family: 'nova';
     src: url(/fonts/AppleII.ttf);
 }
 @media screen and (min-width: 200px) {
