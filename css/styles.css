@@ -18,9 +18,7 @@ body{
 .ctexto {
     position: fixed;
     z-index: 2;
-    
     animation: mymove 5s infinite;
-    
 }
 .ccopy {
     position: fixed;
