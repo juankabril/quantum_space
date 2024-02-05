@@ -18,7 +18,7 @@ body{
 .ctexto {
     position: fixed;
     z-index: 2;
-    font-family: nova;
+    
     animation: mymove 5s infinite;
     
 }
