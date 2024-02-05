@@ -7,8 +7,7 @@ body{
     background: rgb(0, 0, 0);  
 }
 .fondo {
-    position: absolute;
-    z-index: 0;
+    width: 100%;
 }
 .cnave {
     position: fixed;
