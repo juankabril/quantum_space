@@ -1,5 +1,5 @@
 
-@import url('https://fonts.cdnfonts.com/css/templo-kolegio');
+@import url('https://fonts.cdnfonts.com/css/galactic-storm');
 
 *{
     box-sizing: border-box; 
@@ -22,6 +22,7 @@ body{
     position: fixed;
     z-index: 2;
     animation: mymove 5s infinite;
+    font-family: 'Galactic Storm', sans-serif;
 }
 .ccopy {
     position: fixed;
@@ -35,7 +36,7 @@ body{
 
 @font-face {
     font-family: 'nova';
-    src: url(/fonts/templo-kolegio-cdnfonts/TEMPLOL_.ttf);
+    src: url(/fonts/galacticstorm.ttf);
 }
 @media screen and (min-width: 200px) {
     .ctexto {
